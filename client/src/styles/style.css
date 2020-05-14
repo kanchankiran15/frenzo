@@ -1,0 +1,71 @@
+.seaShell {
+  background-color: seashell;
+}
+.seaLightGreen {
+  background-color: lightseagreen;
+}
+.mediumaquamarine {
+  background-color: mediumaquamarine;
+}
+.daryCyan {
+  background-color: darkcyan;
+}
+.imgStyle {
+  min-height: "100%";
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+.ddlStyle {
+  background-color: unset;
+  border: 0;
+}
+.dropdown-menu > button:hover {
+  background-color: unset;
+}
+
+.dropdown-menu > button > a:hover {
+  background-color: slateblue;
+}
+.lmtml {
+  margin-left: 25%;
+  margin-top: 10%;
+}
+.rmtml {
+  margin-left: 25%;
+  margin-top: 5%;
+}
+.profile {
+  height: 200px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.minHeight650 {
+  min-height: 650px;
+}
+.cursive {
+  font-family: cursive;
+  color: darkgreen;
+}
+.bjhw {
+  width: 52px;
+  height: 102px;
+}
+.ml6 {
+  margin-left: 800px;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.help-block {
+  color: red;
+}
+.card-red {
+  color: red;
+}
+.displayNone {
+  display: none;
+}
+.displayBlock {
+  display: block;
+}
