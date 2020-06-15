@@ -50,7 +50,11 @@
 .bjhw {
   width: 52px;
   height: 102px;
+  background-color: green;
+  padding-left: 15px;
+  font-size: xx-large;
 }
+
 .ml6 {
   margin-left: 800px;
 }

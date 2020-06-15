@@ -363,6 +363,7 @@ class BlackJack extends Component {
 
 const Card = ({ number, suit }) => {
   const combo = number ? `${number}${suit}` : null;
+
   const color =
     suit === "♦" || suit === "♥" ? "card card-red bjhw" : "card bjhw";
 
