@@ -11,7 +11,7 @@ import {
 } from "reactstrap";
 import { Link } from "react-router-dom";
 import "../styles/style.css";
-
+import logo from "../img/logo.gif";
 const NavBar = (props) => {
   let userName;
   if (props.userData) {
@@ -21,6 +21,10 @@ const NavBar = (props) => {
     <div>
       <Navbar expand="sm" className="mb-5 daryCyan">
         <NavbarBrand href="/" style={{ color: "seashell" }}>
+          <div
+            className="imgStyle"
+            style={{ backgroundImage: `url(${logo})` }}
+          ></div>
           <strong className="h4 w2"> f</strong>renzo
         </NavbarBrand>
         <NavbarToggler />
@@ -30,11 +34,11 @@ const NavBar = (props) => {
               {userName}
             </DropdownToggle>
             <DropdownMenu right className="ddlStyle">
-              <DropdownItem style={{ color: "seashell" }}>
+              {/* <DropdownItem style={{ color: "seashell" }}>
                 <Link to="/profile" style={{ color: "seashell" }}>
                   My Profile
                 </Link>
-              </DropdownItem>
+              </DropdownItem> */}
               <DropdownItem>
                 <Link to="/login" style={{ color: "seashell" }}>
                   Logout
